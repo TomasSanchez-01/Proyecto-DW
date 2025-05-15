@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    column-gap: 5rem;
+    
+}
+
+.carruzel img{
+    width: 29rem;
+   
+}
+
+.card{
+    background-color: white;
+    padding: 3rem;
+    width: 35rem;
+}
+
+.card1 p{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+h2{
+    font-size: 2.2rem;
+}
+li{
+    margin-left: 2.2rem;
+    font-size: 1.7rem;
+}

@@ -1,0 +1,27 @@
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.description{
+    width: 40rem;
+
+}
+
+
+
+.carruzel{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img{
+    width: 20rem;
+}
