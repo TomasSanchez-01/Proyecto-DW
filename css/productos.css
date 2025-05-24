@@ -1,29 +1,76 @@
-.container{
+.container-main-productos{
     display: flex;
     justify-content: center;
-    column-gap: 5rem;
-    
+    gap: 5rem;
+    height: 42rem;
+    align-items: center;
+    display: grid;
+    grid-template-areas: "carruzel card1  " 
+}
+.carruzel{
+    grid-area: carruzel;
+}
+.card1{
+    grid-area: card1;
+}
+.carousel-item img{
+    height: 410px;
 }
 
-.carruzel img{
-    width: 29rem;
-   
-}
 
 .card{
     background-color: white;
     padding: 3rem;
-    width: 35rem;
+    width: 528px;
+    height: 500px;
+    border-radius: 1rem;
 }
 
 .card1 p{
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 h2{
     font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
 }
 li{
     margin-left: 2.2rem;
     font-size: 1.7rem;
+}
+
+@media (max-width: 1170px){
+    
+    .card{
+        width: 352px;
+        height: 367px;
+        padding: 2rem;
+    }
+    .card1 p{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 1.5rem;
+        
+    }
+    li{
+        margin-left: 10px;
+        font-size: 1.2rem;
+    }
+    .carousel-item img{
+    height: 300px;
+}
+}
+
+@media (max-width: 820px){
+    .container-main-productos{
+    height: 840px;
+    gap: 0rem;
+    grid-template-areas: 
+    "card1" 
+    "carruzel" 
+    }
 }
