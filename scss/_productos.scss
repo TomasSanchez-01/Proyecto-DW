@@ -1,24 +1,24 @@
-.container-main-productos{
+.productos-container-main{
     display: flex;
     justify-content: center;
     gap: 5rem;
     height: 42rem;
     align-items: center;
     display: grid;
-    grid-template-areas: "carruzel card1  " 
+    grid-template-areas: "productos-main-carrusel productos-main-card1" 
 }
-.carruzel{
-    grid-area: carruzel;
+.productos-main-carrusel{
+    grid-area: productos-main-carrusel;
 }
-.card1{
-    grid-area: card1;
+.productos-main-card1{
+    grid-area: productos-main-card1;
 }
-.carousel-item img{
+.productos-carrusel img{
     height: 410px;
 }
 
 
-.card{
+.productos-main-card{
     background-color: white;
     padding: 3rem;
     width: 528px;
@@ -26,51 +26,51 @@
     border-radius: 1rem;
 }
 
-.card1 p{
+.productos-main-card1 p{
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
     text-align: center;
 }
-h2{
+.productos-main-card1 h2{
     font-size: 2.2rem;
     font-weight: bold;
     text-align: center;
 }
-li{
+.productos-main-card1 li{
     margin-left: 2.2rem;
     font-size: 1.7rem;
 }
 
 @media (max-width: 1170px){
     
-    .card{
+    .productos-main-card{
         width: 352px;
         height: 367px;
         padding: 2rem;
     }
-    .card1 p{
+    .productos-main-card1 p{
         font-size: 16px;
         margin-bottom: 10px;
     }
-    h2{
+    .productos-main-card1 h2{
         font-size: 1.5rem;
         
     }
-    li{
+    .productos-main-card1 li{
         margin-left: 10px;
         font-size: 1.2rem;
     }
-    .carousel-item img{
+    .productos-carrusel img{
     height: 300px;
 }
 }
 
 @media (max-width: 820px){
-    .container-main-productos{
+    .productos-container-main{
     height: 840px;
     gap: 0rem;
     grid-template-areas: 
-    "card1" 
-    "carruzel" 
+    "productos-main-card1" 
+    "productos-main-carrusel" 
     }
 }

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: valley;
+    src: url(../font/Ants\ Valley\ -\ Personal\ Use.otf);
+}
+
+.navbar-brand {
+    gap: 2rem;
+    font-family: valley;
+    font-size: 3rem;
+}
+.navbar-nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(236, 168, 200);
+}

@@ -1,0 +1,15 @@
+.fijo{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #25D366; 
+    color:white; 
+    padding:10px; 
+    border:none; 
+    border-radius:5px; 
+    cursor:pointer; 
+    font-size:1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}

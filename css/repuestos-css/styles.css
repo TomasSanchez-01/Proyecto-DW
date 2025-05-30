@@ -30,17 +30,6 @@ body {
 }
 
 /* =====================================
-=               HASTA ACÁ                =
-===================================== */
-
-
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-
-}
-
-/* =====================================
 =               button wsp                =
 ===================================== */
 
@@ -70,6 +59,12 @@ a{
     color: white;
     grid-area: inicio-footer;
     height: 12rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
 }
 
 .footer{
