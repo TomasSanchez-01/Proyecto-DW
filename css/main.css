@@ -115,7 +115,7 @@ body {
   font-size: 3.5rem;
 }
 
-.ubicaion-main-container {
+.ubicacion-main-container {
   display: flex;
   display: grid;
   grid-template-areas: "card-1 card-2";
@@ -172,7 +172,7 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .ubicaion-main-container {
+  .ubicacion-main-container {
     height: 26rem;
   }
   .ubicacion-card {
@@ -198,15 +198,16 @@ body {
   }
 }
 @media (max-width: 820px) {
-  .ubicaion-main-container {
+  .ubicacion-main-container {
     gap: 0rem;
     grid-template-areas: "card-2" "card-1";
+    height: 46rem;
   }
   .ubicacion-card-1 {
     margin-bottom: 0rem;
   }
   .ubicacion-h1 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
   }
