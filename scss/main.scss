@@ -1,9 +1,9 @@
 @use "./reset";
 @use "./navbar";
-@use "./inicio";
-@use "./ubicacion";
-@use "./nosotros";
-@use "./pedidos";
-@use "./productos";
+@use "./pages/inicio";
+@use "./pages/ubicacion";
+@use "./pages/nosotros";
+@use "./pages/pedidos";
+@use "./pages/productos";
 @use "./footer";
 @use "./buttonflotante";

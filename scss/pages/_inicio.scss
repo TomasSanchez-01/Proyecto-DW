@@ -1,0 +1,96 @@
+.inicio-main-1{
+    display: flex;
+   justify-content: center;
+}
+
+
+.inicio-main{
+    display: flex;
+    column-gap: 5rem;
+    justify-content: center;
+    height: 670px;
+    align-items: center;
+    display: grid;
+    grid-template-areas: " inicio-card1 inicio-card2";
+
+}
+
+.inicio-card{
+  background-color: rgb(255, 255, 255);
+  padding: 4rem;
+   width: 528px;
+   height: 550px;
+   border-radius: 1rem;
+}
+
+.inicio-card1{
+    display: flex;
+   justify-content: center;
+   grid-area: inicio-card1;
+}
+    
+.inicio-card1 img{
+    width: 25rem;
+}
+
+.inicio-card2-button{
+ width: 9rem;
+ background-color: rgb(10, 197, 211);
+ padding: 1rem;
+ border-radius: 1rem;
+ font-size: 1.3rem;
+}
+
+.inicio-card2{
+    grid-area: inicio-card2;
+}
+
+.inicio-card2 img {
+    width: 400px
+}
+
+
+.inicio-card2-description p{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+@media (max-width: 1170px){
+    .inicio-card{
+        width: 352px;
+        height: 367px;
+        padding: 2.5rem;
+    }
+    .inicio-card2 img {
+    width: 270px
+    }
+    .inicio-card2-description p{
+    margin-bottom: 15px;
+    font-size: 20px;
+    }
+    
+    .inicio-card2-button{
+    width: 6rem;
+    height: 3rem;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 8px;
+    }
+    .inicio-card1 img{
+    width: 280px;
+}
+
+}
+
+@media (max-width: 820px){
+    .inicio-main{
+        gap: 0rem;
+        grid-template-areas: 
+        "inicio-card2"
+        "inicio-card1"
+        ;
+        height: 840px;
+        
+    }
+
+}

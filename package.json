@@ -1,0 +1,25 @@
+{
+  "name": "valemde-sitioweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/main.scss css/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasSanchez-01/Proyecto-DW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TomasSanchez-01/Proyecto-DW/issues"
+  },
+  "homepage": "https://github.com/TomasSanchez-01/Proyecto-DW#readme",
+  "dependencies": {
+    "sass": "^1.89.2"
+  }
+}
