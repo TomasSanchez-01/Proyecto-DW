@@ -21,7 +21,8 @@
 
 body {
   font-family: "Times New Roman", Times, serif;
-  background-color: rgb(236, 168, 200);
+  /* background-color: rgb(236, 168, 200); */
+  background-color: #f1bcc6;
 }
 
 @media (max-width: 820px) {
